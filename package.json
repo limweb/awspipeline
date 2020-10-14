@@ -1,0 +1,26 @@
+{
+  "name": "awspipeline",
+  "version": "1.0.0",
+  "description": "\"# awspipeline\"  git init git add README.md git commit -m \"first commit\" git branch -M main git remote add origin https://github.com/limweb/awspipeline.git git push -u origin main",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx node ./app/index.js",
+    "serve": "npx node ./app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limweb/awspipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limweb/awspipeline/issues"
+  },
+  "homepage": "https://github.com/limweb/awspipeline#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
