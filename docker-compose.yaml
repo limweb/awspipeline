@@ -1,0 +1,15 @@
+#  docker-compose -f docker-compose.yml config check validate config
+version: "2.1"
+services:
+  nodeappsrv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: nodeapp
+    image: "nodeapp"
+    container_name: nodeappsrv
+    restart: "always"
+    ports:
+      - "8000"
+    expose:
+      - "8000"
